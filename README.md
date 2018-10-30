@@ -4,5 +4,5 @@
 Unity
 
 ## 2、运行效果
-![运行效果](https://github.com/str818/BlendShapeDrive/EffectPicture/Effect.png)
-![运行效果](https://github.com/str818/BlendShapeDrive/EffectPicture/Parameter.png)
+![运行效果](https://github.com/str818/BlendShapeDrive/blob/master/EffectPicture/Effect.png)
+![运行效果](https://github.com/str818/BlendShapeDrive/blob/master/EffectPicture/Parameter.png)
