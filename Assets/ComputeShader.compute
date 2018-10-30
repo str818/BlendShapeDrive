@@ -1,0 +1,13 @@
+﻿#pragma kernel Cul 
+
+RWStructuredBuffer<float3> vertBuffer;
+StructuredBuffer<float3> blendshapeBuffer;
+StructuredBuffer<float3> naturalBuffer;
+float weight;//表情基权重
+
+[numthreads(32,32,1)]
+void Cul(uint3 id : SV_DispatchThreadID) {
+	int index = id.x * 32 * 4 + id.y;
+	vertBuffer[index] = vertBuffer[index] + (blendshapeBuffer[index] - naturalBuffer[index]) * weight;
+}
+
