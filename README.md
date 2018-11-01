@@ -5,7 +5,6 @@ Unity
 
 ## 2、运行效果
 
-
 ![运行效果](https://raw.githubusercontent.com/wiki/str818/BlendShapeDrive/Effect.png)
 
 ![运行效果](https://raw.githubusercontent.com/wiki/str818/BlendShapeDrive/Parameter.png)
